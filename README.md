@@ -1,2 +1,2 @@
 # General-Purpose-Dynamic-Storage-Allocator
-This project involves developing a general-purpose dynamic storage allocator for C programs, effectively creating custom versions of the malloc, realloc, calloc, and free functions.
+This project involves developing a general-purpose dynamic storage allocator for C programs, effectively creating custom versions of the malloc, realloc, calloc, and free functions. These functions are implemented using both implicit and explicit free lists. The explicit free lists are managed as linked lists. Key features of this allocator include block splitting and consistent coalescing. For allocation strategy, it employs the first-fit method, and for deallocation, it uses a Last In, First Out (LIFO) approach.
